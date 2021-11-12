@@ -1,0 +1,2 @@
+rootProject.name = "UpangPocketProject"
+include ':app'

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightbackground"
+    android:orientation="vertical"
+    tools:context=".Activities.ConfirmPaymentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:layout_marginVertical="100dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="#22AE2A"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UPANG"
+                android:textSize="30sp"
+                android:letterSpacing="0.4"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="P"
+                android:textSize="30sp"
+                android:letterSpacing="0.4"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="30sp"
+                android:letterSpacing="0.4"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OCKET"
+                android:textSize="30sp"
+                android:letterSpacing="0.4"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15dp"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="50dp"
+        android:background="#0B4EB1">
+
+        <TextView
+            android:layout_marginVertical="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your PIN"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle=""/>
+
+        <TextView
+            android:layout_marginVertical="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Never share your PIN with anyone"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle=""/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+
+            <EditText
+                android:id="@+id/edittxtNum1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/edittxtNum2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/edittxtNum3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/edittxtNum4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/edittxtNum5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxLength="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="5dp"
+                android:inputType="number"
+                android:gravity="center"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
